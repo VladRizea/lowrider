@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'uni_sans_heavyregular';
+    src: url('fonts/fontfabric_-_uni-sans-heavy-webfont.woff2') format('woff2'),
+         url('fonts/fontfabric_-_uni-sans-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'uni_sans_regularregular';
+    src: url('fonts/fontfabric_-_uni-sans-regular-webfont.woff2') format('woff2'),
+         url('fonts/fontfabric_-_uni-sans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.header-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+        padding-top: 15px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size:18px;
+  font-family: 'uni_sans_heavyregular', Uni Sans Heavy, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+line-height: 25px;
+text-align: center;
+
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size:13px;
+  font-family: 'uni_sans_heavyregular', Uni Sans Heavy, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-size:12px;
+  font-family: 'uni_sans_regularregular', Uni Sans Regular, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+}
+
+
+p {
+        color: #FFFFFF;
+        font-family: 'uni_sans_regularregular';
+        font-size: 12px;
+        text-align: center;
+}
+
+
+.header {
+         text-align: center;
+      }
+
+.social-icons {
+       /* padding: .5em;*/
+       padding-top: 10px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        /*display:inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+        padding: 5px;*/
+}
+
+.streams {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+}
+
+.body {
+         background: url(images/background-min.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*.html { 
+  background: url(images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.video {
+  /* override other styles to make responsive */
+  width: 100%;
+  height: 400px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a{text-decoration: none}
+
